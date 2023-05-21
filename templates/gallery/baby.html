@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <h1>Gallery Page</h1>
+    <div class="lightbox">
+    <div class="row">
+        <div class="col-lg-6">
+            <img
+            src="{% static 'gallery/img/9.jpeg' %}"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+            class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+            />
+            <img
+            src="{% static 'gallery/img/a4bf5300445a73203b9ff3a34fcf6e4d.jpeg' %}"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+            class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+            />
+            <img
+            src="{% static 'gallery/img/f6e51f33f00a490629edd6e545e8f0a2.jpeg' %}"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+            class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+            />
+            <img
+            src="{% static 'gallery/img/8d3569b92ebf68e753a4d97a12f24e02.jpeg' %}"
+            data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+            class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+            />
+
+        </div>
+    </div>
+    </div>
+
+      {% endblock %}
